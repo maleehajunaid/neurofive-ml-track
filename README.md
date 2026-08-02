@@ -27,6 +27,14 @@ Exploratory Data Analysis (EDA) on the Titanic dataset as part of the NeuroFive 
 - R² Score: 0.509 (model explains ~51% of price variation)
 - Predicted vs actual values visualized with a scatter plot
 
+  ## Task 5: Model Evaluation & Tuning
+
+- Calculated Precision, Recall, F1-score using classification_report
+- Explained why accuracy alone is misleading for imbalanced data
+- Tuned hyperparameters (C, solver) using GridSearchCV with 5-fold CV
+- Compared original vs tuned model performance
+- Original Accuracy: 80%, Tuned Accuracy: [apna number]
+
 ## Files
 - NeuroFive_ML.ipynb — Titanic EDA, cleaning, and classification model
 - train.csv — Titanic dataset
