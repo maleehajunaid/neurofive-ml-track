@@ -48,3 +48,5 @@ Exploratory Data Analysis (EDA) on the Titanic dataset as part of the NeuroFive 
 - NeuroFive_ML.ipynb — Titanic EDA, cleaning, and classification model
 - train.csv — Titanic dataset
 - NeuroFive_Regression.ipynb — California housing regression model
+- NeuroFive_Churn.ipynb — Telco customer churn prediction model
+- WA_Fn-UseC_-Telco-Customer-Churn.csv — Telco churn dataset
