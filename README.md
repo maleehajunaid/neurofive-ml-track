@@ -33,8 +33,17 @@ Exploratory Data Analysis (EDA) on the Titanic dataset as part of the NeuroFive 
 - Explained why accuracy alone is misleading for imbalanced data
 - Tuned hyperparameters (C, solver) using GridSearchCV with 5-fold CV
 - Compared original vs tuned model performance
-- Original Accuracy: 80%, Tuned Accuracy: [apna number]
+- Original Accuracy: 80%
 
+## Task 6: Customer Churn Prediction
+
+- Dataset: Telco Customer Churn (Kaggle)
+- Compared Decision Tree and Logistic Regression classifiers
+- Handled categorical variables with pd.get_dummies()
+- Noted class imbalance in Churn column (~73% No, ~27% Yes)
+- Top churn drivers: Contract type, Tenure, Monthly Charges
+- Business summary written for non-technical stakeholders
+- 
 ## Files
 - NeuroFive_ML.ipynb — Titanic EDA, cleaning, and classification model
 - train.csv — Titanic dataset
