@@ -51,6 +51,18 @@ Exploratory Data Analysis (EDA) on the Titanic dataset as part of the NeuroFive 
 - Added 2 engineered features: FamilySize and IsAlone
 - Compared pipeline accuracy with and without engineered features
 - Saved the final trained pipeline using joblib
+
+  ## Task 8: Ensemble Methods
+
+- Trained and compared Logistic Regression, Random Forest, and XGBoost on Titanic data
+- Compared feature importances between Random Forest and XGBoost
+- Explained the difference between bagging (Random Forest) and boosting (XGBoost)
+
+| Model | Accuracy |
+|---|---|
+| Logistic Regression | 81.01% |
+| Random Forest | 82.12% |
+| XGBoost | 80.45% |
   
 ## Files
 - NeuroFive_ML.ipynb — Titanic EDA, cleaning, and classification model
