@@ -43,7 +43,15 @@ Exploratory Data Analysis (EDA) on the Titanic dataset as part of the NeuroFive 
 - Noted class imbalance in Churn column (~73% No, ~27% Yes)
 - Top churn drivers: Contract type, Tenure, Monthly Charges
 - Business summary written for non-technical stakeholders
-- 
+
+ ## Task 7: ML Pipeline
+
+- Built a scikit-learn Pipeline using ColumnTransformer (StandardScaler + OneHotEncoder)
+- Combined preprocessing and Logistic Regression into one pipeline object
+- Added 2 engineered features: FamilySize and IsAlone
+- Compared pipeline accuracy with and without engineered features
+- Saved the final trained pipeline using joblib
+  
 ## Files
 - NeuroFive_ML.ipynb — Titanic EDA, cleaning, and classification model
 - train.csv — Titanic dataset
