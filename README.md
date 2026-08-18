@@ -63,10 +63,34 @@ Exploratory Data Analysis (EDA) on the Titanic dataset as part of the NeuroFive 
 | Logistic Regression | 81.01% |
 | Random Forest | 82.12% |
 | XGBoost | 80.45% |
+
   
+## Task 9: Handling Imbalanced Data
+
+- Dataset: Telco Customer Churn (reused from Task 6)
+- Checked and visualized class balance (~73% No Churn, ~27% Churn)
+- Fixed data leakage issue by properly excluding target columns from features
+- Applied class_weight='balanced' to Logistic Regression to address imbalance
+- Compared Precision/Recall/F1 before and after balancing
+
+| Metric (Churn class) | Original Model | Balanced Model |
+|---|---|---|
+| Precision | 0.69 | 0.52 |
+| Recall | 0.60 | 0.84 |
+| F1-score | 0.64 | 0.64 |
+| Overall Accuracy | 82% | 75% |
+
+Class weighting significantly improved recall for the Churn class 
+(60% to 84%), meaning the model now catches far more at-risk customers, 
+at the cost of some precision and overall accuracy. For churn prediction, 
+this trade-off is worthwhile since missing an actual churner is more 
+costly than a false alarm.
+
+
 ## Files
-- NeuroFive_ML.ipynb — Titanic EDA, cleaning, and classification model
+- NeuroFive_ML.ipynb — Titanic EDA, cleaning, classification model, and tuning
 - train.csv — Titanic dataset
 - NeuroFive_Regression.ipynb — California housing regression model
-- NeuroFive_Churn.ipynb — Telco customer churn prediction model
+- NeuroFive_Churn.ipynb — Telco customer churn prediction and ensemble models
+- NeuroFive_Imbalance.ipynb — Handling imbalanced churn data
 - WA_Fn-UseC_-Telco-Customer-Churn.csv — Telco churn dataset
