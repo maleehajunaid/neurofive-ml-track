@@ -86,6 +86,8 @@ at the cost of some precision and overall accuracy. For churn prediction,
 this trade-off is worthwhile since missing an actual churner is more 
 costly than a false alarm.
 
+## Live Demo
+Try the app here: https://neurofive-ml-track-sngfcd4vcu8f8aremqz5nj.streamlit.app
 
 ## Files
 - NeuroFive_ML.ipynb — Titanic EDA, cleaning, classification model, and tuning
