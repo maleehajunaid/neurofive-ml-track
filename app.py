@@ -5,7 +5,7 @@ import pandas as pd
 model = joblib.load('titanic_model.pkl')
 
 st.title("🚢 Titanic Survival Predictor")
-st.write("Passenger details daalo, predict karo survive hoga ya nahi.")
+st.write("Enter the passenger details and predict whether they will survive or not.")
 
 pclass = st.selectbox("Passenger Class", [1, 2, 3])
 sex = st.selectbox("Sex", ["male", "female"])
